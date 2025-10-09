@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { createPageUrl } from "@/utils/index.js";
+import { createPageUrl } from "@/utils";
 import { ArrowRight, Sparkles, Zap } from "lucide-react";
 import ParticleField from "../components/3d/ParticleField";
 import InteractiveCrosses from "../components/3d/InteractiveCrosses";
