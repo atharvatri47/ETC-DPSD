@@ -1,55 +1,64 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { User } from "lucide-react";
+import khushiBawaImg from '@/assets/team/khushi-bawa.jpg';
+import arnavKatyalImg from '@/assets/legacy/arnav-katyal.jpg';
+import rabhyaGandhiImg from '@/assets/legacy/raabhaya-gandhi.jpg';
+import yashasviTickooImg from '@/assets/legacy/yashasvi-tickoo.jpg';
+import arnavPuriImg from '@/assets/legacy/arnav-puri.jpg';
+import avishiKumarImg from '@/assets/legacy/avishi-kumar.jpg';
+import keshavSethiImg from '@/assets/legacy/keshav-sethi.jpg';
+import swyamGuptaImg from '@/assets/legacy/swyam-gupta.jpg';
+
 
 const milestones = [
   {
     name: "Khushi Bawa",
     years: "2025-26",
     quote: "Fore the day i die,I'ma touch the shy.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+    image: khushiBawaImg
   },
   {
     name: "Arnav Katyal",
     years: "2024-25",
     quote: "Epitome.",
-    image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=400&h=400&fit=crop&crop=face"
+    image: arnavKatyalImg
   },
   {
     name: "Avishi Kumar",
     years: "2023-24",
     quote: "Creativity is never the norm so embrace the peculiar.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face"
+    image: avishiKumarImg
   },
   {
     name: "Keshav Sethi",
     years: "2023-24",
     quote: "Making chaos look official since day one.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+    image: keshavSethiImg
   },
   {
     name: "Raabhaya Gandhi",
     years: "2022-23",
     quote: "What you seek, is always seeking you.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=face"
+    image: rabhyaGandhiImg
   },
   {
     name: "Swayam Gupta",
     years: "2021-22",
     quote: "The years looking good.",
-    image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop&crop=face"
+    image: swyamGuptaImg
   },
   {
     name: "Beenet Kaur Anand",
     years: "2021-22",
     quote: "",
-    image: "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=400&h=400&fit=crop&crop=face"
+    image: null
   },
   {
     name: "Arnav Puri",
     years: "2020-21",
     quote: "Every time someone steps up and says who they are, the world becomes a better, more interesting place.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+    image: arnavPuriImg
   },
   {
     name: "Anushka Sharma",
@@ -61,7 +70,7 @@ const milestones = [
     name: "Yashasvi Tickoo",
     years: "2019-20",
     quote: "Be a little extra. Be an etcetera.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+    image: yashasviTickooImg
   },
 ];
 

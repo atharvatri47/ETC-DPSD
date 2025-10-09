@@ -11,7 +11,7 @@ const teamMembers = [
     name: "Khushi Bawa",
     role: "President",
     bio: "Guiding the creative vision of ETC with passion and dedication to fostering a collaborative and innovative environment for all members.",
-    image: "khushiBawaImg",
+    image: khushiBawaImg,
     type: "president",
     email: "khushi.b@etc.club"
   },
@@ -20,7 +20,7 @@ const teamMembers = [
     name: "Khushi Talwar",
     role: "Vice President",
     bio: "Spearheading creative projects and workshops, ensuring a dynamic and engaging experience for the entire ETC community.",
-    image: "khushiTalwarImg",
+    image: khushiTalwarImg,
     type: "vp",
     email: "khushi.t@etc.club"
   },
@@ -29,7 +29,7 @@ const teamMembers = [
     name: "Anvita Sehgal",
     role: "Vice President",
     bio: "Managing club operations and outreach, connecting our creative endeavors with the wider school community and beyond.",
-    image: "anvitaSehgalImg",
+    image: anvitaSehgalImg,
     type: "vp",
     email: "anvita.s@etc.club"
   }

@@ -185,7 +185,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-rajdhani text-xl font-bold text-white mb-1">Phone</h3>
-                    <p className="font-space text-gray-300">+91 (11) 1234-5678</p>
+                    <p className="font-space text-gray-300">+91 9211601013</p>
                   </div>
                 </div>
               </div>
@@ -197,10 +197,10 @@ export default function Contact() {
               </h3>
               <div className="font-space text-gray-300 space-y-2">
                 <p>
-                  <span className="text-cyan-400">Monday - Friday:</span> 9:00 AM - 5:00 PM
+                  <span className="text-cyan-400">Monday - Friday:</span> 9:00 AM - 1:30 PM
                 </p>
                 <p>
-                  <span className="text-cyan-400">Saturday:</span> 10:00 AM - 2:00 PM
+                  <span className="text-cyan-400">Saturday:</span> closed
                 </p>
                 <p>
                   <span className="text-cyan-400">Sunday:</span> Closed
