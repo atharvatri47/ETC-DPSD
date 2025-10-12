@@ -3,14 +3,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { User } from "lucide-react";
 
 // Import all legacy images
-import khushiBawaImg from '@/assets/legacy/khushi-bawa.jpg';
-import arnavKatyalImg from '@/assets/legacy/arnav-katyal.jpg';
-import avishiKumarImg from '@/assets/legacy/avishi-kumar.jpg';
-import keshavSethiImg from '@/assets/legacy/keshav-sethi.jpg';
-import raabhayaGandhiImg from '@/assets/legacy/raabhaya-gandhi.jpg';
-import swayamGuptaImg from '@/assets/legacy/swayam-gupta.jpg';
-import arnavPuriImg from '@/assets/legacy/arnav-puri.jpg';
-import yashasviTickooImg from '@/assets/legacy/yashasvi-tickoo.jpg';
+import khushiBawaImg from '@/assets/team/khushi-bawa.jpg';
+import arnavKatyalImg from '@/assets/team/arnav-katyal.jpg';
+import avishiKumarImg from '@/assets/team/avishi-kumar.jpg';
+import keshavSethiImg from '@/assets/team/keshav-sethi.jpg';
+import raabhayaGandhiImg from '@/assets/team/raabhaya-gandhi.jpg';
+import swayamGuptaImg from '@/assets/team/swayam-gupta.jpg';
+import arnavPuriImg from '@/assets/team/arnav-puri.jpg';
+import yashasviTickooImg from '@/assets/team/yashasvi-tickoo.jpg';
 
 const milestones = [
   {
@@ -192,4 +192,5 @@ export default function Legacy() {
       </div>
     </div>
   );
+
 }
