@@ -59,7 +59,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.1 }}
             >
-              Founded in 2021, ETC—Everything Creative is the official creative arts and literary club of Delhi Public School, Dwarka. Open to students of Classes 8–12, it offers a vibrant space where imagination, language, and performance come alive. From poetry slams and theatrical skits to creative writing and language-based challenges, ETC encourages students to think beyond textbooks and embrace originality. The club nurtures expression in every form—on stage, on paper, and in conversation—celebrating individuality, confidence, and creativity. With each gathering, ETC fosters innovation, artistic growth, and meaningful connections within the school's dynamic student community.
+              Founded in 2019, ETC—Everything Creative is the official creative arts and literary club of Delhi Public School, Dwarka. Open to students of Classes 8–12, it offers a vibrant space where imagination, language, and performance come alive. From poetry slams and theatrical skits to creative writing and language-based challenges, ETC encourages students to think beyond textbooks and embrace originality. The club nurtures expression in every form—on stage, on paper, and in conversation—celebrating individuality, confidence, and creativity. With each gathering, ETC fosters innovation, artistic growth, and meaningful connections within the school's dynamic student community.
             </motion.p>
 
             <motion.div
