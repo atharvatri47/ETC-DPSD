@@ -16,7 +16,7 @@ const milestones = [
   {
     name: "Khushi Bawa",
     years: "2025-26",
-    quote: "Empower the Creative.",
+    quote: "Fore the day I die,I'ma touch the sky.",
     image: khushiBawaImg
   },
   {
@@ -194,4 +194,5 @@ export default function Legacy() {
   );
 
 }
+
 
