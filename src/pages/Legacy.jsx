@@ -8,7 +8,7 @@ import arnavKatyalImg from '@/assets/legacy/arnav-katyal.jpg';
 import avishiKumarImg from '@/assets/legacy/avishi-kumar.jpg';
 import keshavSethiImg from '@/assets/legacy/keshav-sethi.jpg';
 import raabhayaGandhiImg from '@/assets/legacy/raabhaya-gandhi.jpg';
-import swayamGuptaImg from '@/assets/legacy/swayam-gupta.jpg';
+import swayamGuptaImg from '@/assets/legacy/swyam-gupta.jpg';
 import arnavPuriImg from '@/assets/legacy/arnav-puri.jpg';
 import yashasviTickooImg from '@/assets/legacy/yashasvi-tickoo.jpg';
 
@@ -44,7 +44,7 @@ const milestones = [
     image: raabhayaGandhiImg
   },
   {
-    name: "Swayam Gupta",
+    name: "Swyam Gupta",
     years: "2021-22",
     quote: "The years looking good.",
     image: swayamGuptaImg
@@ -194,5 +194,6 @@ export default function Legacy() {
   );
 
 }
+
 
 
