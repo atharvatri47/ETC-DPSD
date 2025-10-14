@@ -6,6 +6,7 @@ import AboutUs from './pages/AboutUs';
 import Blog from './pages/Blog';
 import Events from './pages/Events';
 import Team from './pages/Team';
+import TeacherInCharge from './pages/TeacherInCharge';
 import Legacy from './pages/Legacy';
 import Showcase from './pages/Showcase';
 import Contact from './pages/Contact';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/blog" element={<Layout><Blog /></Layout>} />
         <Route path="/events" element={<Layout><Events /></Layout>} />
         <Route path="/team" element={<Layout><Team /></Layout>} />
+        <Route path="/teacherincharge" element={<Layout><TeacherInCharge /></Layout>} />
         <Route path="/legacy" element={<Layout><Legacy /></Layout>} />
         <Route path="/showcase" element={<Layout><Showcase /></Layout>} />
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
