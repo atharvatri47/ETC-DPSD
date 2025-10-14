@@ -183,7 +183,7 @@ export default function Layout({ children, currentPageName }) {
             </a>
           </Button>
           <p className="font-space text-sm text-gray-500"> {/* Added new p tag */}
-            created by atharv atri
+            created by Atharv Atri
           </p>
         </div>
       </footer>
