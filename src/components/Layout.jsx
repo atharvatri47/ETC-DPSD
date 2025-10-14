@@ -14,6 +14,7 @@ const navigationItems = [
   { title: "Team", url: createPageUrl("Team") },
   { title: "Teacher In-Charge", url: createPageUrl("TeacherInCharge") },
   { title: "Legacy", url: createPageUrl("Legacy") },
+  { title: "FUN", url: createPageUrl("FUN") },
   { title: "Showcase", url: createPageUrl("Showcase") },
   { title: "Contact", url: createPageUrl("Contact") }
 ];
