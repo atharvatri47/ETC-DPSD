@@ -27,8 +27,8 @@ export default function TeacherInCharge() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <div className="bg-aqua-glow rounded-3xl border-4 border-cyan-400 overflow-hidden glow-aqua inline-block">
-            <div className="w-full h-96 md:h-[500px] bg-black/50 flex items-center justify-center">
+          <div className="bg-aqua-glow rounded-3xl border-4 border-cyan-400 overflow-hidden glow-aqua inline-block w-full md:w-4/5 lg:w-3/4">
+            <div className="w-full h-[550px] md:h-[600px] bg-black/50 flex items-center justify-center">
               {/* Photo placeholder - replace with actual image */}
               <img
                 src="/teacher-incharge.jpg"
