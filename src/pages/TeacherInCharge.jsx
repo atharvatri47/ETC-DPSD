@@ -22,12 +22,12 @@ export default function TeacherInCharge() {
 
         {/* Photo Section */}
         <motion.div
-          className="mb-12"
+          className="mb-12 text-center"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <div className="bg-aqua-glow rounded-3xl border-4 border-cyan-400 overflow-hidden glow-aqua">
+          <div className="bg-aqua-glow rounded-3xl border-4 border-cyan-400 overflow-hidden glow-aqua inline-block">
             <div className="w-full h-96 md:h-[500px] bg-black/50 flex items-center justify-center">
               {/* Photo placeholder - replace with actual image */}
               <img
@@ -37,6 +37,11 @@ export default function TeacherInCharge() {
               />
             </div>
           </div>
+
+          {/* Name Line */}
+          <h2 className="font-rajdhani text-2xl md:text-3xl text-cyan-400 font-bold mt-6">
+            MS. GEETIKA MANISH PURI
+          </h2>
         </motion.div>
 
         {/* Message Section */}
@@ -48,7 +53,6 @@ export default function TeacherInCharge() {
         >
           <h2 className="font-rajdhani text-3xl font-bold text-white mb-6">Message</h2>
           <div className="bg-black/50 rounded-2xl p-8 border border-cyan-400/30 min-h-[300px]">
-            {/* Message content goes here - leave space for code/text */}
             <p className="font-space text-gray-300 text-lg leading-relaxed">
               {/* Add the teacher's message here */}
             </p>
