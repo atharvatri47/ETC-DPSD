@@ -8,6 +8,7 @@ import Events from './pages/Events';
 import Team from './pages/Team';
 import TeacherInCharge from './pages/TeacherInCharge';
 import Legacy from './pages/Legacy';
+import FUN from './pages/Fun';
 import Showcase from './pages/Showcase';
 import Contact from './pages/Contact';
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/team" element={<Layout><Team /></Layout>} />
         <Route path="/teacherincharge" element={<Layout><TeacherInCharge /></Layout>} />
         <Route path="/legacy" element={<Layout><Legacy /></Layout>} />
+        <Route path="/FUN" element={<Layout><FUN /></Layout>} />
         <Route path="/showcase" element={<Layout><Showcase /></Layout>} />
         <Route path="/contact" element={<Layout><Contact /></Layout>} />
       </Routes>
