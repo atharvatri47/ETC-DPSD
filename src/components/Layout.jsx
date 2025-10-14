@@ -12,6 +12,7 @@ const navigationItems = [
   { title: "Blog", url: createPageUrl("Blog") },
   { title: "Events", url: createPageUrl("Events") },
   { title: "Team", url: createPageUrl("Team") },
+  { title: "Teacher In-Charge", url: createPageUrl("TeacherInCharge") },
   { title: "Legacy", url: createPageUrl("Legacy") },
   { title: "Showcase", url: createPageUrl("Showcase") },
   { title: "Contact", url: createPageUrl("Contact") }
