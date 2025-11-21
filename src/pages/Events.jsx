@@ -50,7 +50,7 @@ const events = [
     "time": "09:00",
     "location": "To be revealed",
     "type": "upcoming",
-    "attendees": 00,
+    "attendees": 200,
     "description": "Will be revealed"
   }
 ];
