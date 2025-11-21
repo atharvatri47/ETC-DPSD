@@ -1,9 +1,25 @@
+// src/pages/Team.jsx - WITH ALL MEMBERS
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Mail } from "lucide-react";
+
+// Import team member images
 import khushiBawaImg from '@/assets/team/khushi-bawa.jpg';
 import khushiTalwarImg from '@/assets/team/khushi-talwar.jpg';
 import anvitaSehgalImg from '@/assets/team/anvita-sehgal.jpg';
+
+// Import new member images
+import anaghaImg from '@/assets/team/anagha-dua.jpg';
+import sabhyataImg from '@/assets/team/sabhyata-singh.jpg';
+import gurnoorImg from '@/assets/team/gurnoor-bhatia.jpg';
+import kshirjaImg from '@/assets/team/kshirja-pradhan.jpg';
+import jivanshImg from '@/assets/team/jivansh-kain.jpg';
+import aditiImg from '@/assets/team/aditi-prakash.jpg';
+import adityaGuptaImg from '@/assets/team/aditya-gupta.jpg';
+import aarnaImg from '@/assets/team/aarna-arora.jpg';
+import nysaImg from '@/assets/team/nysa-agarwal.jpg';
+import vanyaImg from '@/assets/team/vanya-trikha.jpg';
+import atharvImg from '@/assets/team/atharv-atri.jpg';
 
 const teamMembers = [
   {
@@ -32,6 +48,111 @@ const teamMembers = [
     image: anvitaSehgalImg,
     type: "vp",
     email: "anvita.s@etc.club"
+  },
+  // Secretaries
+  {
+    id: 4,
+    name: "Anagha Dua",
+    role: "Secretary",
+    bio: "Organizing club activities and ensuring smooth communication among members.",
+    image: anaghaImg,
+    type: "team",
+    email: "anagha.d@etc.club"
+  },
+  {
+    id: 5,
+    name: "Sabhyata Singh",
+    role: "Secretary",
+    bio: "Coordinating events and maintaining club records with precision.",
+    image: sabhyataImg,
+    type: "team",
+    email: "sabhyata.s@etc.club"
+  },
+  // Event Heads
+  {
+    id: 6,
+    name: "Gurnoor Bhatia",
+    role: "Event Head",
+    bio: "Leading the planning and execution of all club events and activities.",
+    image: gurnoorImg,
+    type: "team",
+    email: "gurnoor.b@etc.club"
+  },
+  {
+    id: 7,
+    name: "Kshirja Pradhan",
+    role: "Event Head",
+    bio: "Coordinating workshops and creative gatherings for the ETC community.",
+    image: kshirjaImg,
+    type: "team",
+    email: "kshirja.p@etc.club"
+  },
+  // Tech Heads
+  {
+    id: 8,
+    name: "Jivansh Kain",
+    role: "Tech Head",
+    bio: "Managing technical infrastructure and digital platforms for ETC.",
+    image: jivanshImg,
+    type: "team",
+    email: "jivansh.k@etc.club"
+  },
+  {
+    id: 9,
+    name: "Aditi Prakash",
+    role: "Tech Head",
+    bio: "Overseeing technology integration and digital innovation initiatives.",
+    image: aditiImg,
+    type: "team",
+    email: "aditi.p@etc.club"
+  },
+  // Creative Heads
+  {
+    id: 10,
+    name: "Aditya Gupta",
+    role: "Creative Head",
+    bio: "Driving artistic vision and creative direction for all club projects.",
+    image: adityaGuptaImg,
+    type: "team",
+    email: "aditya.g@etc.club"
+  },
+  {
+    id: 11,
+    name: "Aarna Arora",
+    role: "Creative Head",
+    bio: "Inspiring innovative ideas and leading creative workshops.",
+    image: aarnaImg,
+    type: "team",
+    email: "aarna.a@etc.club"
+  },
+  // Editors
+  {
+    id: 12,
+    name: "Nysa Agarwal",
+    role: "Editor",
+    bio: "Curating and editing content for ETC's publications and media.",
+    image: nysaImg,
+    type: "team",
+    email: "nysa.a@etc.club"
+  },
+  {
+    id: 13,
+    name: "Vanya Trikha",
+    role: "Editor",
+    bio: "Ensuring quality and consistency across all written materials.",
+    image: vanyaImg,
+    type: "team",
+    email: "vanya.t@etc.club"
+  },
+  // Developer
+  {
+    id: 14,
+    name: "Atharv Atri",
+    role: "Developer",
+    bio: "Building and maintaining the ETC website and digital presence.",
+    image: atharvImg,
+    type: "team",
+    email: "atharv.a@etc.club"
   }
 ];
 
@@ -40,10 +161,12 @@ export default function Team() {
 
   const president = teamMembers.find(member => member.type === 'president');
   const vicePresidents = teamMembers.filter(member => member.type === 'vp');
+  const otherMembers = teamMembers.filter(member => member.type === 'team');
 
   return (
     <div className="min-h-screen pt-24 pb-16 px-6 bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="max-w-7xl mx-auto">
+        {/* Header */}
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 50 }}
@@ -58,6 +181,7 @@ export default function Team() {
           </p>
         </motion.div>
 
+        {/* President Section */}
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -95,10 +219,12 @@ export default function Team() {
           </motion.div>
         </motion.div>
 
+        {/* Vice Presidents Section */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
+          className="mb-20"
         >
           <h2 className="font-rajdhani text-3xl font-bold text-yellow-200 text-center mb-12">
             Vice Presidents
@@ -139,6 +265,48 @@ export default function Team() {
           </div>
         </motion.div>
 
+        {/* Other Team Members Section - 4 per row */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
+          <h2 className="font-rajdhani text-3xl font-bold text-yellow-200 text-center mb-12">
+            Team Members
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {otherMembers.map((member, index) => (
+              <motion.div
+                key={member.id}
+                className="text-center group cursor-pointer"
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.8 + index * 0.05 }}
+                whileHover={{ y: -10, scale: 1.05 }}
+                onClick={() => setSelectedMember(member)}
+              >
+                <div className="w-32 h-32 mx-auto relative mb-3">
+                  <motion.div
+                    className="w-full h-full rounded-full overflow-hidden border-3 border-cyan-400/50 group-hover:border-cyan-400 transition-all duration-300"
+                    whileHover={{ rotateY: 15 }}
+                  >
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </motion.div>
+                </div>
+                <h3 className="font-rajdhani text-lg font-bold text-white group-hover:text-cyan-400 transition-colors">
+                  {member.name}
+                </h3>
+                <p className="font-space text-xs text-gray-300">{member.role}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Member Detail Modal */}
         <AnimatePresence>
           {selectedMember && (
             <motion.div
