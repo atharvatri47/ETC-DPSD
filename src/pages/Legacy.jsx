@@ -50,7 +50,7 @@ const milestones = [
     image: swayamGuptaImg
   },
   {
-    name: "Beenet Kaur Anand",
+    name: "Bineet Kaur Anand",
     years: "2021-22",
     quote: "",
     image: null
@@ -194,6 +194,7 @@ export default function Legacy() {
   );
 
 }
+
 
 
 
