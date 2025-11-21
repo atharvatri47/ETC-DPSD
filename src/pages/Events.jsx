@@ -10,7 +10,7 @@ const events = [
     "time": "11:00",
     "location": "Main Gallery",
     "type": "past",
-    "attendees": Classes IX & XI,
+    "attendees": 25,
     "description": "Teams improvise performances based on odd topics and must instantly switch emotions when prompted."
   },
   {
@@ -20,7 +20,7 @@ const events = [
     "time": "12:00",
     "location": "Classroom",
     "type": "past",
-    "attendees": Class XI,
+    "attendees": 20,
     "description": "Teams create and perform an original mystery play filled with clues, suspects, and a twist ending."
   },
   {
@@ -30,7 +30,7 @@ const events = [
     "time": "10:00",
     "location": "Campus Grounds",
     "type": "past",
-    "attendees": Class IX ,
+    "attendees": 20 ,
     "description": "Participants design a themed Instagram-style campaign using 6–10 creative posts."
   },
   {
@@ -40,7 +40,7 @@ const events = [
     "time": "10:00",
     "location": "Auditorium",
     "type": "past",
-    "attendees": Class XI and XII,
+    "attendees":200,
     "description": "Interactive workshop with alumni."
   },
   {
@@ -50,7 +50,7 @@ const events = [
     "time": "09:00",
     "location": "To be revealed",
     "type": "upcoming",
-    "attendees": ??,
+    "attendees": 00,
     "description": "Will be revealed"
   }
 ];
