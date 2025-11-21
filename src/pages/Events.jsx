@@ -4,54 +4,54 @@ import { Calendar, MapPin, Clock, Users, ChevronLeft, ChevronRight } from "lucid
 
 const events = [
   {
-    id: 1,
-    title: "Digital Art Showcase",
-    date: "2024-02-15",
-    time: "18:00",
-    location: "Main Gallery",
-    type: "upcoming",
-    attendees: 45,
-    description: "Exhibition featuring the best digital artworks created by our members this semester."
+    "id": 1,
+    "title": "EmotiQuest - The Improv Showdown",
+    "date": "2025-12-10",
+    "time": "18:00",
+    "location": "Main Gallery",
+    "type": "past",
+    "attendees": 45,
+    "description": "Teams improvise performances based on odd topics and must instantly switch emotions when prompted."
   },
   {
-    id: 2,
-    title: "Creative Coding Workshop",
-    date: "2024-02-08",
-    time: "14:00",
-    location: "Tech Lab",
-    type: "upcoming",
-    attendees: 28,
-    description: "Learn to create interactive art using p5.js and machine learning algorithms."
+    "id": 2,
+    "title": "Whodunnit Live",
+    "date": "2025-12-10",
+    "time": "14:00",
+    "location": "Tech Lab",
+    "type": "past",
+    "attendees": 28,
+    "description": "Teams create and perform an original mystery play filled with clues, suspects, and a twist ending."
   },
   {
-    id: 3,
-    title: "Photography Walk",
-    date: "2024-01-25",
-    time: "10:00",
-    location: "Campus Grounds",
-    type: "past",
-    attendees: 32,
-    description: "Captured stunning moments around campus while learning advanced photography techniques."
+    "id": 3,
+    "title": "More Than a Post: The Instagram Impact Challenge",
+    "date": "2025-12-10",
+    "time": "10:00",
+    "location": "Campus Grounds",
+    "type": "past",
+    "attendees": 32,
+    "description": "Participants design a themed Instagram-style campaign using 6–10 creative posts."
   },
   {
-    id: 4,
-    title: "Music Production Masterclass",
-    date: "2024-01-18",
-    time: "16:00",
-    location: "Sound Studio",
-    type: "past",
-    attendees: 25,
-    description: "Professional producer shared insights on modern music production and mixing techniques."
+    "id": 4,
+    "title": "WORKSHOP",
+    "date": "15-5-25",
+    "time": "10:00",
+    "location": "Auditorium",
+    "type": "past",
+    "attendees": 25,
+    "description": "Interactive workshop with alumni."
   },
   {
-    id: 5,
-    title: "Innovation Challenge",
-    date: "2024-01-10",
-    time: "09:00",
-    location: "Innovation Lab",
-    type: "past",
-    attendees: 52,
-    description: "24-hour hackathon where teams created solutions for real-world creative challenges."
+    "id": 5,
+    "title": "Coming soon",
+    "date": "2026",
+    "time": "09:00",
+    "location": "To be revealed",
+    "type": "upcoming",
+    "attendees": 52,
+    "description": "Will be revealed"
   }
 ];
 
