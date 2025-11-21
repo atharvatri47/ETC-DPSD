@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import geetikaPuri from "../../assets/team/geetika-puri.jpg";
+import geetikaPuri from "../assets/team/geetika-puri.jpg";
 
 export default function TeacherInCharge() {
   return (
     <div className="min-h-screen pt-24 pb-16 px-6 bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="max-w-6xl mx-auto">
-        
+
         {/* Header */}
         <motion.div
           className="text-center mb-20"
@@ -69,6 +69,7 @@ export default function TeacherInCharge() {
             </p>
           </div>
         </motion.div>
+
       </div>
     </div>
   );
