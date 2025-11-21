@@ -176,16 +176,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Office Hours */}
-            <div className="bg-aqua-glow rounded-3xl p-8 border border-cyan-400/20">
-              <h3 className="font-rajdhani text-2xl font-bold text-white mb-4">Office Hours</h3>
-              <div className="font-space text-gray-300 space-y-2">
-                <p><span className="text-cyan-400">Monday - Friday:</span> 9:00 AM - 5:00 PM</p>
-                <p><span className="text-cyan-400">Saturday:</span> 10:00 AM - 2:00 PM</p>
-                <p><span className="text-cyan-400">Sunday:</span> Closed</p>
-              </div>
-            </div>
-
             {/* Join Community */}
             <motion.div
               className="bg-gradient-to-r from-cyan-400/20 to-yellow-200/20 rounded-3xl p-8 border border-cyan-400/30"
