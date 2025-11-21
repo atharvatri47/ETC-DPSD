@@ -27,7 +27,7 @@ export default function Fun() {
             Fun Zone 🎮
           </h1>
           <p className="font-space text-xl text-gray-300 max-w-3xl mx-auto">
-            Take a break and explore some of the most creative games from Neal.fun
+            Take a break and explore some of the most creative games
           </p>
         </motion.div>
 
@@ -62,3 +62,4 @@ export default function Fun() {
     </div>
   );
 }
+
