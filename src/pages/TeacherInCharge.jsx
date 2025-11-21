@@ -58,14 +58,19 @@ export default function TeacherInCharge() {
 
           <div className="bg-black/50 rounded-2xl p-8 border border-cyan-400/30 min-h-[300px]">
             <p className="font-space text-gray-300 text-lg leading-relaxed">
-              From all of us at ETC, we want to express our deepest gratitude to 
-              Ms. Geetika Manish Puri. Your support, patience, and unwavering 
-              dedication have shaped us into more confident, creative, and 
-              inspired individuals. You guide us not just as students, but as 
-              young artists learning to find our voice. For every opportunity, 
-              every encouraging word, and every moment of belief you’ve shown 
-              us—thank you. You are the heart of ETC, and we are incredibly 
-              grateful to have you leading us.
+              Ms. Geetika Manish Puri, words cannot fully express our gratitude for all you have done. 
+  ETC exists because of your vision, passion, and belief in what students can create when 
+  they are truly supported. You didn’t just start this club — you built a family, a space 
+  where creativity thrives, confidence grows, and every member feels seen and valued.
+  <br /><br />
+  You have always recognized our potential long before we recognized it ourselves. 
+  Your guidance turns uncertainty into courage, your encouragement pushes us further, 
+  and your warmth makes ETC feel like home. Every opportunity we’ve received and 
+  every achievement we celebrate traces back to your dedication.
+  <br /><br />
+  You are the heart of ETC — the reason we dream bigger, work harder, and believe in ourselves. 
+  Thank you for giving us a place to grow, to express, and to discover who we can become. 
+  We are forever grateful to learn under your leadership.
             </p>
           </div>
         </motion.div>
@@ -74,3 +79,4 @@ export default function TeacherInCharge() {
     </div>
   );
 }
+
