@@ -7,20 +7,20 @@ const events = [
     "id": 1,
     "title": "EmotiQuest - The Improv Showdown",
     "date": "2025-12-10",
-    "time": "18:00",
+    "time": "11:00",
     "location": "Main Gallery",
     "type": "past",
-    "attendees": 45,
+    "attendees": Classes IX & XI,
     "description": "Teams improvise performances based on odd topics and must instantly switch emotions when prompted."
   },
   {
     "id": 2,
     "title": "Whodunnit Live",
     "date": "2025-12-10",
-    "time": "14:00",
-    "location": "Tech Lab",
+    "time": "12:00",
+    "location": "Classroom",
     "type": "past",
-    "attendees": 28,
+    "attendees": Class XI,
     "description": "Teams create and perform an original mystery play filled with clues, suspects, and a twist ending."
   },
   {
@@ -30,7 +30,7 @@ const events = [
     "time": "10:00",
     "location": "Campus Grounds",
     "type": "past",
-    "attendees": 32,
+    "attendees": Class IX ,
     "description": "Participants design a themed Instagram-style campaign using 6–10 creative posts."
   },
   {
@@ -40,7 +40,7 @@ const events = [
     "time": "10:00",
     "location": "Auditorium",
     "type": "past",
-    "attendees": 25,
+    "attendees": Class XI and XII,
     "description": "Interactive workshop with alumni."
   },
   {
@@ -50,7 +50,7 @@ const events = [
     "time": "09:00",
     "location": "To be revealed",
     "type": "upcoming",
-    "attendees": 52,
+    "attendees": ??,
     "description": "Will be revealed"
   }
 ];
