@@ -5,14 +5,14 @@ import { ExternalLink, Eye, Heart } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Photographic Talent",
-    description: "A collection showcasing the incredible photographic talent of our students.",
+    title: "Artistic Talent",
+    description: "A collection showcasing the incredible artistic talent of our students.",
     image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=400&fit=crop",
     category: "Photography",
     author: "ETC Members",
     likes: 156,
     views: 2890,
-    link: "https://drive.google.com/drive/folders/1KTuP-OUfrvnjsWIETxx1YqfJndI7rBFL?usp=drive_link"
+    link: "https://drive.google.com/drive/folders/1NoqXul4RSBbujm0Q0zbI9cEisXGWAt4m"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const projects = [
     author: "ETC Members",
     likes: 127,
     views: 2340,
-    link: "https://drive.google.com/drive/folders/1KTuP-OUfrvnjsWIETxx1YqfJndI7rBFL?usp=drive_link"
+    link: "https://drive.google.com/drive/folders/1oXWRj5WgqmLrN7KaHGmaYqzUseiBkP5Z"
   }
 ];
 
