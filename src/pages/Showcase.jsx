@@ -12,7 +12,7 @@ const projects = [
     author: "ETC Members",
     likes: 156,
     views: 2890,
-    link: null
+    link: "https://drive.google.com/drive/folders/1KTuP-OUfrvnjsWIETxx1YqfJndI7rBFL?usp=drive_link"
   },
   {
     id: 2,
