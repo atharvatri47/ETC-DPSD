@@ -13,7 +13,7 @@ import anaghaImg from '@/assets/team/anagha-dua.jpg';
 import sabhyataImg from '@/assets/team/sabhyata-singh.jpg';
 import gurnoorImg from '@/assets/team/gurnoor-bhatia.jpg';
 import kshirjaImg from '@/assets/team/kshirja-pradhan.jpg';
-import jivanshImg from '@/assets/team/jivansh-kain.jpg';
+import jivanshImg from '@/assets/team/jivansh-kains.jpg';
 import aditiImg from '@/assets/team/aditi-prakash.jpg';
 import adityaGuptaImg from '@/assets/team/aditya-gupta.jpg';
 import aarnaImg from '@/assets/team/aarna-arora.jpg';
