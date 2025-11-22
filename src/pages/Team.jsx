@@ -13,7 +13,7 @@ import anaghaImg from '@/assets/team/anagha-dua.jpg';
 import sabhyataImg from '@/assets/team/sabhyata-singh.jpg';
 import gurnoorImg from '@/assets/team/gurnoor-bhatia.jpg';
 import kshirjaImg from '@/assets/team/kshirja-pradhan.jpg';
-import jivanshImg from '@/assets/team/jivansh-kains.jpg';
+import jivanshImg from '@/assets/team/jivansh-kain.jpg';
 import aditiImg from '@/assets/team/aditi-prakash.jpg';
 import adityaGuptaImg from '@/assets/team/aditya-gupta.jpg';
 import aarnaImg from '@/assets/team/aarna-arora.jpg';
@@ -161,7 +161,8 @@ export default function Team() {
 
   const president = teamMembers.find(member => member.type === 'president');
   const vicePresidents = teamMembers.filter(member => member.type === 'vp');
-  const otherMembers = teamMembers.filter(member => member.type === 'team');
+  const apexMembers = teamMembers.filter(member => member.type === 'team');
+  const developer = teamMembers.find(member => member.id === 14); // Atharv Atri
 
   return (
     <div className="min-h-screen pt-24 pb-16 px-6 bg-gradient-to-b from-black via-gray-900 to-black">
@@ -265,17 +266,18 @@ export default function Team() {
           </div>
         </motion.div>
 
-        {/* Other Team Members Section - 4 per row */}
+        {/* Apex Members Section - 4 per row */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
+          className="mb-20"
         >
           <h2 className="font-rajdhani text-3xl font-bold text-yellow-200 text-center mb-12">
-            Team Members
+            Apex
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            {otherMembers.map((member, index) => (
+            {apexMembers.map((member, index) => (
               <motion.div
                 key={member.id}
                 className="text-center group cursor-pointer"
@@ -304,6 +306,39 @@ export default function Team() {
               </motion.div>
             ))}
           </div>
+        </motion.div>
+
+        {/* Developer Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.0 }}
+          className="text-center"
+        >
+          <h2 className="font-rajdhani text-3xl font-bold text-yellow-200 mb-8">Developer</h2>
+          <motion.div
+            className="inline-block relative group cursor-pointer"
+            whileHover={{ scale: 1.05 }}
+            onClick={() => setSelectedMember(developer)}
+          >
+            <div className="w-40 h-40 mx-auto relative">
+              <motion.div
+                className="w-full h-full rounded-full overflow-hidden border-4 border-cyan-400 glow-aqua"
+                whileHover={{ borderColor: "#FFFCD3" }}
+                transition={{ duration: 0.3 }}
+              >
+                <img
+                  src={developer.image}
+                  alt={developer.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </motion.div>
+            </div>
+            <h3 className="font-rajdhani text-xl font-bold text-white mt-4 group-hover:text-cyan-400 transition-colors">
+              {developer.name}
+            </h3>
+            <p className="font-space text-sm text-gray-300">{developer.role}</p>
+          </motion.div>
         </motion.div>
 
         {/* Member Detail Modal */}
