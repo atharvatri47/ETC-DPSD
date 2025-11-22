@@ -161,7 +161,7 @@ export default function Team() {
 
   const president = teamMembers.find(member => member.type === 'president');
   const vicePresidents = teamMembers.filter(member => member.type === 'vp');
-  const apexMembers = teamMembers.filter(member => member.type === 'team');
+  const apexMembers = teamMembers.filter(member => member.type === 'team' && member.id !== 14); // Exclude Atharv
   const developer = teamMembers.find(member => member.id === 14); // Atharv Atri
 
   return (
